@@ -10,7 +10,8 @@
 <header>
     
     <span><?php bloginfo('description'); ?></span> <!-- Tagline -->
-    <nav  >
+    
+    <nav  class="mainNav">
         <ul>
             <li><a href="<?php echo esc_url(home_url('/')); ?>">Home</a></li>
             <li><a href="<?php echo esc_url(home_url('/about')); ?>">About</a></li>
