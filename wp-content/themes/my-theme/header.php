@@ -7,6 +7,6 @@
 </head>
 <body <?php body_class(); ?>>
 <header>
-    <h1><?php bloginfo('name'); ?></h1> <!-- Site name -->
+    
     <span><?php bloginfo('description'); ?></span> <!-- Tagline -->
 </header>
