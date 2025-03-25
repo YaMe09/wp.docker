@@ -9,7 +9,7 @@
 <header>
     
     <span><?php bloginfo('description'); ?></span> <!-- Tagline -->
-    <nav <?php if (is_front_page()) { echo 'class="home-nav"'; } ?> >
+    <nav  >
         <ul>
             <li><a href="<?php echo esc_url(home_url('/')); ?>">Home</a></li>
             <li><a href="<?php echo esc_url(home_url('/about')); ?>">About</a></li>
