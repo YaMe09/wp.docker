@@ -13,7 +13,7 @@ body {
 }
 
 
-nav ul {
+.home-nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -21,6 +21,6 @@ nav ul {
     background-color: white;
 }
 
-nav ul li {
+.home-nav ul li {
     float: left;
 }
