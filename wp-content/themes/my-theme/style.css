@@ -12,7 +12,7 @@ body {
     padding: 0;
 }
 
-nav{
+ul{
     display: block;
     list-style-type: disc;
     margin-block-start: 0;
