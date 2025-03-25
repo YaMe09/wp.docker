@@ -12,12 +12,6 @@ body {
     padding: 0;
 }
 
-.woocommerce ul.products li.product {
-    background: #f9f9f9;
-    padding: 15px;
-    border-radius: 5px;
-    text-align: center;
-}
 
 nav ul {
     list-style-type: none;
