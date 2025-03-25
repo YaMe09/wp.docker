@@ -7,8 +7,9 @@
 </head>
 <body <?php body_class(); ?>>
 <header>
+    
+    <span><?php bloginfo('description'); ?></span> <!-- Tagline -->
     <nav>
-        <?php wp_nav_menu(array('theme_location' => 'main-menu')); ?> <!-- Main menu -->
         <ul>
             <li><a href="<?php echo esc_url(home_url('/')); ?>">Home</a></li>
             <li><a href="<?php echo esc_url(home_url('/about')); ?>">About</a></li>
